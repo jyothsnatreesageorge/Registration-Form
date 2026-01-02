@@ -1,6 +1,6 @@
 *{
-    margin:0px;
-    padding: 0px;
+    margin:auto;
+    padding: auto;
     box-sizing: border-box; 
 }
 body{
@@ -9,13 +9,19 @@ body{
     background: linear-gradient(to top,rgb(17, 0, 100),rgb(29, 174, 241));
     font-family: "Merienda", cursive;
     font-size: 20px;
-    color:white;
+    color:black;
+}
+form{
+    text-align:center;
 }
 h1{
     text-align: center;
 }
 p{
     text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 button{
     padding-left: 20px;
@@ -37,4 +43,14 @@ footer a {
 }
 footer a:hover {
     color: rgb(233, 246, 2);
+}
+section{
+    align-items: center;
+    border: 5px solid rgb(0, 4, 255);
+    background:linear-gradient(rgb(255, 255, 255),rgb(153, 230, 243));
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    height: 500px;
+    width:550px;
 }
