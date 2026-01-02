@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Charis+SIL:ital,wght@0,400;0,700;1,400;1,700&family=Meow+Script&family=Merienda:wght@300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <h1>Tinkerhub RIT</h1>
+        <p>Fill in the form to register for an event of Tinkerhub RIT</p>
+        <section>
+            <form action="">
+                <label for="name">Name</label>
+                <input type="text" required>
+                <br><br>
+                <label for="mail">Email</label>
+                <input type="email" required>
+                <br><br>
+                <label for="phone">Phone Number</label>
+                <input type="tel" required pattern="[0-9]{10}">
+                <br><br>
+                <label for="gender">Gender</label>
+                <input type="radio" name="gender" id="" value="Female" required>
+                <label for="">Female</label>
+                <input type="radio" name="gender" id="" value="Male">
+                <label for="">Male</label>
+                <br><br>
+                <label for="year">Year Of Study</label>
+                <select name="year" id="year" required>
+                    <option value="" disabled selected>Select your year</option>
+                    <option value="">Ist year</option>
+                    <option value="">IInd year</option>
+                    <option value="">IIIrd year</option>
+                    <option value="">IVth year</option>
+                </select>
+                <br><br>
+                <input type="checkbox" id="terms" name="terms" value="yes" required>
+                <label for="">I will ensure my complete participation for this event</label>
+                <br><br>
+                <button id="button" type="submit">Submit</button>
+                <br><br>
+                </form>
+                
+        </section>
+    </main>
+    <footer>
+        <p>Connect us through <br></p>
+        <a href="https://www.linkedin.com/company/tinkerhub-rit/ target=_blank"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://github.com/tinkerhub-rit-official target=_blank"><i class="fa-brands fa-github"></i></a>
+    </footer>
+</body>
+</html>
